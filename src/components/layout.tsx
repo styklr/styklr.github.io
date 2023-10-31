@@ -1,7 +1,12 @@
 import * as React from 'react';
-import { Script, type PageProps } from 'gatsby';
+import { Script, type PageProps, Link } from 'gatsby';
 
-const Layout:React.FC<PageProps> = (props) => {
+export interface ILayoutProps {
+    children: any;
+    showMenuLinksAsBookMarks: boolean;
+}
+
+const Layout:React.FC<ILayoutProps> = (props) => {
 
     const [wowJsLoaded, setWowJsLoaded] = React.useState<boolean>(false);
 
@@ -51,12 +56,12 @@ const Layout:React.FC<PageProps> = (props) => {
               >
                 <ul className="blcok lg:flex">
                   <li className="group relative">
-                    <a
-                      href="#home"
+                    <Link
+                      to="#home"
                       className="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
                     >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="group relative">
                     <a
@@ -92,7 +97,7 @@ const Layout:React.FC<PageProps> = (props) => {
                   </li>
                   <li className="submenu-item group relative">
                     <a
-                      href="javascript:void(0)"
+                      href=""
                       className="relative mx-8 flex py-2 text-base text-dark after:absolute after:right-1 after:top-1/2 after:mt-[-2px] after:h-2 after:w-2 after:-translate-y-1/2 after:rotate-45 after:border-b-2 after:border-r-2 after:border-current group-hover:text-primary lg:mr-0 lg:ml-8 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 lg:text-white lg:after:right-0 lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
                     >
                       Pages
@@ -791,53 +796,55 @@ const Layout:React.FC<PageProps> = (props) => {
     {/* <!-- ====== Back To Top End -->
 
     <!-- ====== All Scripts --> */}
-    {wowJsLoaded && (<>
+    {wowJsLoaded && (
             <Script src="assets/js/main.js"></Script>
-            <Script>
-              {`
-                    // ==== for menu scroll
-                    const pageLink = document.querySelectorAll(".ud-menu-scroll");
-              
-                    pageLink.forEach((elem) => {
-                      elem.addEventListener("click", (e) => {
-                        e.preventDefault();
-                        document.querySelector(elem.getAttribute("href")).scrollIntoView({
-                          behavior: "smooth",
-                          offsetTop: 1 - 60,
-                        });
-                      });
-                    });
-              
-                    // section menu active
-                    function onScroll(event) {
-                      const sections = document.querySelectorAll(".ud-menu-scroll");
-                      const scrollPos =
-                        window.pageYOffset ||
-                        document.documentElement.scrollTop ||
-                        document.body.scrollTop;
-              
-                      for (let i = 0; i < sections.length; i++) {
-                        const currLink = sections[i];
-                        const val = currLink.getAttribute("href");
-                        const refElement = document.querySelector(val);
-                        const scrollTopMinus = scrollPos + 73;
-                        if (
-                          refElement.offsetTop <= scrollTopMinus &&
-                          refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
-                        ) {
-                          document
-                            .querySelector(".ud-menu-scroll")
-                            .classList.remove("active");
-                          currLink.classList.add("active");
-                        } else {
-                          currLink.classList.remove("active");
-                        }
-                      }
-                    }
-              
-                    window.document.addEventListener("scroll", onScroll);
-              `}
-            </Script></>
+    )}
+    {wowJsLoaded && props.showMenuLinksAsBookMarks && (
+                    <Script>
+                    {`
+                          // ==== for menu scroll
+                          const pageLink = document.querySelectorAll(".ud-menu-scroll");
+                    
+                          pageLink.forEach((elem) => {
+                            elem.addEventListener("click", (e) => {
+                              e.preventDefault();
+                              document.querySelector(elem.getAttribute("href")).scrollIntoView({
+                                behavior: "smooth",
+                                offsetTop: 1 - 60,
+                              });
+                            });
+                          });
+                    
+                          // section menu active
+                          function onScroll(event) {
+                            const sections = document.querySelectorAll(".ud-menu-scroll");
+                            const scrollPos =
+                              window.pageYOffset ||
+                              document.documentElement.scrollTop ||
+                              document.body.scrollTop;
+                    
+                            for (let i = 0; i < sections.length; i++) {
+                              const currLink = sections[i];
+                              const val = currLink.getAttribute("href");
+                              const refElement = document.querySelector(val);
+                              const scrollTopMinus = scrollPos + 73;
+                              if (
+                                refElement.offsetTop <= scrollTopMinus &&
+                                refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+                              ) {
+                                document
+                                  .querySelector(".ud-menu-scroll")
+                                  .classList.remove("active");
+                                currLink.classList.add("active");
+                              } else {
+                                currLink.classList.remove("active");
+                              }
+                            }
+                          }
+                    
+                          window.document.addEventListener("scroll", onScroll);
+                    `}
+                  </Script>
     )}
     </>);
 }

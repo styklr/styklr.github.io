@@ -2,6 +2,7 @@ import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import { Script } from "gatsby"
 import Layout from "../components/layout"
+import { SEO } from "../components/SEO"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (<Layout><>
@@ -4480,4 +4481,4 @@ const IndexPage: React.FC<PageProps> = () => {
 }
 
 export default IndexPage
-export { Head } from '../components/Head';
+export const Head = () => ( <SEO /> )
