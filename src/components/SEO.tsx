@@ -33,6 +33,5 @@ export const SEO:React.FC<ISeoProps> = (props) => {
         <meta name="twitter:description" content={seo.description} />
         <meta name="twitter:image" content={seo.image} />
         <meta name="twitter:creator" content={seo.twitterUsername} />
-        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
     </>)
 }

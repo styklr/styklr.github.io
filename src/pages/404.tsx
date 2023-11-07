@@ -1,49 +1,64 @@
 import * as React from "react"
-import { Link, HeadFC, PageProps } from "gatsby"
-
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+import Layout from "../components/layout"
+import type { PageProps, HeadFC } from "gatsby"
+import { SEO } from "../components/SEO"
 
 const NotFoundPage: React.FC<PageProps> = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <Layout>
+    {/* <!-- ====== 404 Section Start --> */}
+    <section className="bg-white py-14 lg:py-20 pt-[20px]">
+      <div className="container">
+        <div className="-mx-4 flex flex-wrap">
+          <div className="w-full px-4">
+            <div
+              className="wow fadeInUp relative mx-auto max-w-[850px] overflow-hidden rounded-lg bg-white py-20 px-8 text-center shadow-lg sm:px-12 md:px-[60px]"
+              data-wow-delay=".2s"
+            >
+              <h2
+                className="mb-8 text-3xl font-bold text-dark sm:text-4xl lg:text-[40px] xl:text-[42px]"
+              >
+                404 - We couldn't find that page.
+              </h2>
+              <h3 className="mb-8 text-xl font-normal text-dark-700 md:text-2xl">
+                Maybe you can find what you need here?
+              </h3>
+              <ul className="flex flex-wrap justify-center">
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    className="mx-2 my-1 inline-block rounded-md bg-[#f5f8ff] py-3 px-6 text-base font-medium text-dark hover:bg-primary hover:text-white"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    className="mx-2 my-1 inline-block rounded-md bg-[#f5f8ff] py-3 px-6 text-base font-medium text-dark hover:bg-primary hover:text-white"
+                  >
+                    Support
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    className="mx-2 my-1 inline-block rounded-md bg-[#f5f8ff] py-3 px-6 text-base font-medium text-dark hover:bg-primary hover:text-white"
+                  >
+                    Latest News
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* <!-- ====== 404 Section End --> */}
+
+    </Layout>
   )
 }
 
 export default NotFoundPage
-
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head:HeadFC = () => ( <SEO /> )
