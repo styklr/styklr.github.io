@@ -81,7 +81,7 @@ const Layout:React.FC<ILayoutProps> = (props) => {
                   </li>
                   <li className="group relative">
                     <Link
-                      to={props.showMenuLinksAsBookMarks ? "#team" : "/team" }
+                      to="/#team"
                       className="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
                     >
                       Team
@@ -162,7 +162,7 @@ const Layout:React.FC<ILayoutProps> = (props) => {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
             <div className="mb-10 w-full">
               <a
-                href="javascript:void(0)"
+                href="/"
                 className="mb-6 inline-block max-w-[160px]"
               >
                 <img
@@ -176,7 +176,8 @@ const Layout:React.FC<ILayoutProps> = (props) => {
               </p>
               <div className="-mx-3 flex items-center">
                 <a
-                  href="javascript:void(0)"
+                  href="https://www.facebook.com"
+                  target="_blank"
                   className="px-3 text-[#dddddd] hover:text-white"
                 >
                   <svg
@@ -191,22 +192,15 @@ const Layout:React.FC<ILayoutProps> = (props) => {
                   </svg>
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="https://www.twitter.com"
+                  target="_blank"
                   className="px-3 text-[#dddddd] hover:text-white"
                 >
-                  <svg
-                    width="19"
-                    height="15"
-                    viewBox="0 0 19 15"
-                    className="fill-current"
-                  >
-                    <path
-                      d="M16.2622 3.17878L17.33 1.93293C17.6391 1.59551 17.7234 1.33595 17.7515 1.20618C16.9085 1.67337 16.1217 1.82911 15.6159 1.82911H15.4192L15.3068 1.72528C14.6324 1.18022 13.7894 0.894714 12.8902 0.894714C10.9233 0.894714 9.37779 2.40012 9.37779 4.13913C9.37779 4.24295 9.37779 4.39868 9.40589 4.5025L9.49019 5.02161L8.90009 4.99565C5.30334 4.89183 2.35288 2.03675 1.87518 1.5436C1.08839 2.84136 1.53799 4.08722 2.01568 4.86587L2.97107 6.31937L1.45369 5.54071C1.48179 6.63084 1.93138 7.48736 2.80247 8.11029L3.56116 8.62939L2.80247 8.9149C3.28017 10.2386 4.34795 10.7837 5.13474 10.9913L6.17443 11.2509L5.19094 11.8738C3.61736 12.912 1.65039 12.8342 0.779297 12.7563C2.54957 13.8983 4.65705 14.1579 6.11823 14.1579C7.21412 14.1579 8.02901 14.0541 8.2257 13.9762C16.0936 12.2631 16.4589 5.77431 16.4589 4.47655V4.29486L16.6275 4.19104C17.5829 3.36047 17.9763 2.91923 18.2011 2.65967C18.1168 2.68563 18.0044 2.73754 17.892 2.7635L16.2622 3.17878Z"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="20" className="fill-current" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg>
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="https://www.linkedin.com"
+                  target="_blank"                  
                   className="px-3 text-[#dddddd] hover:text-white"
                 >
                   <svg

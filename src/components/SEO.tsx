@@ -25,13 +25,22 @@ export const SEO:React.FC<ISeoProps> = (props) => {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <meta name="description" content={seo.description} />
+        <meta name="keywords" content="Consulting Solutions, IT Services, digital transformation consulting, Cloud Application Development, Microsoft 365 Apps, Copilot, Microsoft 365 Copilot Adoption, Generative AI, AI Assistants, SharePoint Consulting, Microsoft Teams App Development" />
         <meta name="image" content={seo.image} />
+
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content={seo.twitterUsername} />
+        <meta name="twitter:creator" content={seo.twitterUsername} />
         <meta name="twitter:title" content={seo.title} />
-        <meta name="twitter:url" content={seo.url} />
         <meta name="twitter:description" content={seo.description} />
         <meta name="twitter:image" content={seo.image} />
-        <meta name="twitter:creator" content={seo.twitterUsername} />
+        <meta name="twitter:url" content={seo.url} />
+
+        <meta property="og:title" content={seo.title} />
+        <meta property="og:url" content={seo.url} />
+        <meta property="og:image" content={seo.image} />
+        
     </>)
 }

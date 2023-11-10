@@ -27,13 +27,16 @@ module.exports = {
     },
     extend: {
       colors: {
+        innovate: "#7237c0",
+        elevate:"#9e1919",
+        optimize:"#4fb623",
         black: "#212b36",
         dark: "#090E34",
         "dark-700": "#090e34b3",
         primary: "#0943b9",
         secondary: "#7237c0",
         "body-color": "#637381",
-        warning: "#FBBF24",
+        warning: "#FBBF24"
       },
       boxShadow: {
         input: "0px 7px 20px rgba(0, 0, 0, 0.03)",

@@ -4,7 +4,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `Styklr`,
     siteUrl: `https://www.styklr.com`,
-    description: "This is a conulsting services firm",
+    description: "We help our customers do more by leveraging technology and being a trusted partner in their digital transformation journey",
     twitterUsername: "@styklr",
     image: "/assets/images/blank.png",
   },

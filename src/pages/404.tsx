@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import type { PageProps, HeadFC } from "gatsby"
+import { type PageProps, type HeadFC, Link } from "gatsby"
 import { SEO } from "../components/SEO"
 
 const NotFoundPage: React.FC<PageProps> = () => {
@@ -25,28 +25,28 @@ const NotFoundPage: React.FC<PageProps> = () => {
               </h3>
               <ul className="flex flex-wrap justify-center">
                 <li>
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    to="/"
                     className="mx-2 my-1 inline-block rounded-md bg-[#f5f8ff] py-3 px-6 text-base font-medium text-dark hover:bg-primary hover:text-white"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    to="/#services"
                     className="mx-2 my-1 inline-block rounded-md bg-[#f5f8ff] py-3 px-6 text-base font-medium text-dark hover:bg-primary hover:text-white"
                   >
-                    Support
-                  </a>
+                    Services
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    to="/about"
                     className="mx-2 my-1 inline-block rounded-md bg-[#f5f8ff] py-3 px-6 text-base font-medium text-dark hover:bg-primary hover:text-white"
                   >
-                    Latest News
-                  </a>
+                    About Us
+                  </Link>
                 </li>
               </ul>
             </div>
