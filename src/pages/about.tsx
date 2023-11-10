@@ -15,7 +15,7 @@ const AboutPage:React.FC = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4">
             <div className="text-center">
-              <h1 className="text-4xl font-semibold text-white">About Us Page</h1>
+              <h1 className="text-4xl font-semibold text-white">About Us</h1>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ const AboutPage:React.FC = () => {
                   <h2
                     className="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]"
                   >
-                    Your trusted IT partner in you digtal tranformation journey.
+                    Trusted IT partner in your digtal tranformation journey.
                   </h2>
                   <p className="mb-9 text-base leading-relaxed text-body-color">
                   We are an IT consulting firm that helps organizations transform and add more value by 

@@ -1470,7 +1470,7 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
                   <h2
                     className="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]"
                   >
-                    Your trusted IT partner in you digtal tranformation journey.
+                    Trusted IT partner in your digtal tranformation journey.
                   </h2>
                   <p className="mb-9 text-base leading-relaxed text-body-color">
                   We are an IT consulting firm that helps organizations transform and add more value by 
