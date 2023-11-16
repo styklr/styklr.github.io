@@ -27,7 +27,7 @@ export const SEO:React.FC<ISeoProps> = (props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta name="description" content={seo.description} />
-        <meta name="keywords" content="Consulting Solutions, IT Services, digital transformation consulting, Cloud Application Development, Microsoft 365 Apps, Copilot, Microsoft 365 Copilot Adoption, Generative AI, AI Assistants, SharePoint Consulting, Microsoft Teams App Development" />
+        <meta name="keywords" content="Consulting Solutions, IT Services, digital transformation consulting, Cloud Application Development, Microsoft 365 Apps, Copilot, Microsoft 365 Copilot Adoption, Generative AI, AI Assistants, SharePoint Consulting, Microsoft Teams App Development, Microsoft Copilot Studio" />
         <meta name="image" content={seo.image} />
 
         <meta name="twitter:card" content="summary_large_image" />

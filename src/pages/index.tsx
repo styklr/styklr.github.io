@@ -1274,6 +1274,79 @@ const IndexPage: React.FC<PageProps> = () => {
           <div className="w-full px-4 md:w-1/2 lg:w-1/3">
             <div
               className="wow fadeInUp group mb-12 bg-white"
+              data-wow-delay=".25s"
+            >
+              <div
+                className="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary"
+              >
+                <span
+                  className="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"
+                ></span>
+                <svg
+                  width="35"
+                  height="35"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                 stroke-width="1.5" stroke="currentColor" className="text-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                </svg>
+              
+              </div>
+              <h4 className="mb-3 text-xl font-bold text-dark">
+                Copilots & Generative AI Solutions
+              </h4>
+              <p className="mb-8 text-body-color lg:mb-11">
+                We help you in integrating Generative AI capabilities to your existing applications or new solutions. Preparing your tenant for Microsoft 365 Copilot, building plugins, custom Copilots and chat assistants using Microsoft Copilot Studio and Azure OpenAI Services.
+              </p>
+              {/* <a
+                href="javascript:void(0)"
+                className="text-base font-medium text-body-color hover:text-primary"
+              >
+                Learn More
+              </a> */}
+            </div>
+          </div>
+          <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div
+              className="wow fadeInUp group mb-12 bg-white"
+              data-wow-delay=".25s"
+            >
+              <div
+                className="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary"
+              >
+                <span
+                  className="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"
+                ></span>
+                <svg 
+                  width="35"
+                  height="35"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke-width="1.5" stroke="currentColor" className="text-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+                </svg>
+
+              </div>
+              <h4 className="mb-3 text-xl font-bold text-dark">
+                Custom Development with AI
+              </h4>
+              <p className="mb-8 text-body-color lg:mb-11">
+                We build custom applications on Azure Cloud, AI assistants powered by Azure OpenAI Service and any custom solutions as per your business needs. We follow industry standard best practices to ensure quality, security and scalability of the custom solutions.
+              </p>
+              {/* <a
+                href="javascript:void(0)"
+                className="text-base font-medium text-body-color hover:text-primary"
+              >
+                Learn More
+              </a> */}
+            </div>
+          </div>
+
+          <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div
+              className="wow fadeInUp group mb-12 bg-white"
               data-wow-delay=".15s"
             >
               <div
@@ -1351,42 +1424,6 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                 stroke-width="1.5" stroke="currentColor" className="text-white">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
-                </svg>
-              
-              </div>
-              <h4 className="mb-3 text-xl font-bold text-dark">
-                Leveraging & Adopting AI
-              </h4>
-              <p className="mb-8 text-body-color lg:mb-11">
-                We help you in integrating Generative AI capabilities to your existing applications or new solutions. Preparing your tenant for Microsoft 365 Copilot and building custom Copilots, and chat assistants using Azure OpenAI Services that work on your organization's data securely.
-              </p>
-              {/* <a
-                href="javascript:void(0)"
-                className="text-base font-medium text-body-color hover:text-primary"
-              >
-                Learn More
-              </a> */}
-            </div>
-          </div>
-          <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div
-              className="wow fadeInUp group mb-12 bg-white"
-              data-wow-delay=".25s"
-            >
-              <div
-                className="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary"
-              >
-                <span
-                  className="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"
-                ></span>
-                <svg
-                  width="35"
-                  height="35"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
                   stroke-width="1.5" stroke="currentColor" className="text-white">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.795l.75-1.3m7.5-12.99l.75-1.3m-6.063 16.658l.26-1.477m2.605-14.772l.26-1.477m0 17.726l-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205L12 12m6.894 5.785l-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864l-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495" />
                 </svg>
@@ -1397,42 +1434,6 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
               </h4>
               <p className="mb-8 text-body-color lg:mb-11">
                 Build and manage integrations for your Microsoft 365 eco system, which can create unique solutions for your organization, and use your data from external systems within Microsoft 365 apps and vice versa.
-              </p>
-              {/* <a
-                href="javascript:void(0)"
-                className="text-base font-medium text-body-color hover:text-primary"
-              >
-                Learn More
-              </a> */}
-            </div>
-          </div>
-          <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div
-              className="wow fadeInUp group mb-12 bg-white"
-              data-wow-delay=".25s"
-            >
-              <div
-                className="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary"
-              >
-                <span
-                  className="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"
-                ></span>
-                <svg 
-                  width="35"
-                  height="35"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  stroke-width="1.5" stroke="currentColor" className="text-white">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
-                </svg>
-
-              </div>
-              <h4 className="mb-3 text-xl font-bold text-dark">
-                Custom Development
-              </h4>
-              <p className="mb-8 text-body-color lg:mb-11">
-                We build custom applications on Azure Cloud, AI assistants powered by OpenAI and any custom solutions as per your business needs. We follow industry standard best practices to ensure quality, security and scalability of the custom solutions.
               </p>
               {/* <a
                 href="javascript:void(0)"
