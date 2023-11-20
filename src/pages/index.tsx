@@ -1475,7 +1475,7 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
                   </h2>
                   <p className="mb-9 text-base leading-relaxed text-body-color">
                   We are an IT consulting firm that helps organizations transform and add more value by 
-                  tranforming and adopting to latest technologies. Our team of experts, with extensive 
+                  leveraging and adopting latest technologies. Our team of experts, with extensive 
                   experience in cloud computing, productivity tools, and artificial intelligence are 
                   passionate about delivering innovative solutions that meet our customer's needs and expectations.
                   </p>
