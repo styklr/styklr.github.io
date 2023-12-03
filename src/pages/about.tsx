@@ -111,7 +111,7 @@ const AboutPage:React.FC = () => {
                   <h2
                     className="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]"
                   >
-                    Trusted IT partner in your digtal tranformation journey.
+                    Trusted IT partner in your digital transformation journey.
                   </h2>
                   <p className="mb-9 text-base leading-relaxed text-body-color">
                   We are an IT consulting firm that helps organizations transform and add more value by 

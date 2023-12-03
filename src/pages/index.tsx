@@ -27,7 +27,7 @@ const IndexPage: React.FC<PageProps> = () => {
               <p
                 className="mx-auto mb-10 max-w text-base text-[#e4e4e4] sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed"
               >
-                Our team of Microsoft certified specialists are commited to <b>INNOVATE</b> to find newer and better solutions, 
+                Our team of Microsoft certified specialists are committed to <b>INNOVATE</b> to find newer and better solutions, 
                 to <b>ELEVATE</b> the customer by delivering high quality work and to <b>OPTIMIZE</b> the cost and resources.
                 <br/>With more than a decade of experience, we have the expertise to handle any kind of software development project, 
                 including developing AI workloads, custom cloud applications, Microsoft 365 solutions, and implementing newer technologies. View our services to learn more. 
@@ -1433,7 +1433,7 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
                 Integration Services
               </h4>
               <p className="mb-8 text-body-color lg:mb-11">
-                Build and manage integrations for your Microsoft 365 eco system, which can create unique solutions for your organization, and use your data from external systems within Microsoft 365 apps and vice versa.
+                Build and manage integrations for your Microsoft 365 tenants, which can create unique solutions for your organization, and use your data from external systems within Microsoft 365 apps and vice versa.
               </p>
               {/* <a
                 href="javascript:void(0)"
@@ -1471,7 +1471,7 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
                   <h2
                     className="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]"
                   >
-                    Trusted IT partner in your digtal tranformation journey.
+                    Trusted IT partner in your digital transformation journey.
                   </h2>
                   <p className="mb-9 text-base leading-relaxed text-body-color">
                   We are an IT consulting firm that helps organizations transform and add more value by 
@@ -2083,7 +2083,7 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
             >
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  "Working with Ram was an excellent experience. Ram provided a high-quality product with superb customer service. Ram is an easy person to work with that has an exceptional Sharepoint and Office 365 knowledge base."
+                  "Working with Ram was an excellent experience. Ram provided a high-quality product with superb customer service. Ram is an easy person to work with that has an exceptional SharePoint and Office 365 knowledge base."
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
