@@ -166,8 +166,8 @@ const AboutPage:React.FC = () => {
               <p
                 className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed"
               >
-                We work with our customers to understand their goals, challenges, and opportunities, to design 
-                and implement customized solutions that fit their budget, timeline, and requirements. Our principles 
+                We work with our customers to understand their goals, challenges and opportunities, to design 
+                and implement customized solutions that fit their budget, timeline and requirements. Our principles 
                 play an important role in acheiving this
               </p>
             </div>

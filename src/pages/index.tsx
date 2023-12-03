@@ -22,14 +22,14 @@ const IndexPage: React.FC<PageProps> = () => {
               <h1
                 className="mb-8 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug md:text-[45px] md:leading-snug"
               >
-                We help you do more by automating your business processes and building solutions on Azure and Microsoft&nbsp;365
+                We help you do more by automating your processes and building solutions on Azure and Microsoft&nbsp;365
               </h1>
               <p
                 className="mx-auto mb-10 max-w text-base text-[#e4e4e4] sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed"
               >
                 Our team of Microsoft certified specialists are committed to <b>INNOVATE</b> to find newer and better solutions, 
                 to <b>ELEVATE</b> the customer by delivering high quality work and to <b>OPTIMIZE</b> the cost and resources.
-                <br/>With more than a decade of experience, we have the expertise to handle any kind of software development project, 
+                <br/>With more than a decade of experience, we have the expertise to handle any kind of software development projects, 
                 including developing AI workloads, custom cloud applications, Microsoft 365 solutions, and implementing newer technologies. View our services to learn more. 
               </p>
               <ul className="mb-10 flex flex-wrap items-center justify-center">
@@ -2009,7 +2009,7 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
               <h2
                 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
               >
-                What our Client Say
+                What our clients say
               </h2>
               <p
                 className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed"
