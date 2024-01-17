@@ -2236,6 +2236,7 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
             KARNATAKA, 560035<br/>
             MOBILE: +91 9739280208<br/>
             EMAIL: ram@styklr.com
+            https://www.styklr.com
                     </p>
                     <p className="text-base text-body-color">
                     29-6-1, First Floor,
