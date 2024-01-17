@@ -224,7 +224,8 @@ const Layout:React.FC<ILayoutProps> = (props) => {
             KASAVANAHALLI, BANGALORE,
             KARNATAKA, 560035<br/>
             MOBILE: +91 9739280208<br/>
-            EMAIL: ram@styklr.com
+            EMAIL: ram@styklr.com<br/>
+            https://www.styklr.com
             </div>
             <br/><br/>
             <div className='text-white'>
