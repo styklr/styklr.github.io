@@ -219,12 +219,21 @@ const Layout:React.FC<ILayoutProps> = (props) => {
             <div className="mb-10 w-full">
             <h4 className="mb-9 text-lg font-semibold text-white">India</h4>
             <div className='text-white'>
+            SRI MOHANA RAMYA MERLA <br/>
+            41FE, LAKE SHORE HOMES,
+            KASAVANAHALLI, BANGALORE,
+            KARNATAKA, 560035<br/>
+            MOBILE: +91 9739280208<br/>
+            EMAIL: ram@styklr.com
+            </div>
+            <br/><br/>
+            <div className='text-white'>
+            SRI MOHANA RAMYA MERLA<br/>
             29-6-1, First Floor,
             Lakshmivarapu Peta,
             Rajahmundry,<br/>
             Andhra Pradesh, 533104
             </div>
-
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
