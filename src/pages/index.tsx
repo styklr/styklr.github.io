@@ -2229,9 +2229,19 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
                     </svg>
                   </div>
                   <div>
-                    <h5 className="mb-6 text-lg font-semibold">Our Location</h5>
+                    <h5 className="mb-6 text-lg font-semibold">Our Locations</h5>
                     <p className="text-base text-body-color">
-                      29-6-1, Rajahmundry, Andhra Pradesh - 533014
+                    41FE, LAKE SHORE HOMES,
+            KASAVANAHALLI, BANGALORE,
+            KARNATAKA, 560035<br/>
+            MOBILE: +91 9739280208<br/>
+            EMAIL: ram@styklr.com
+                    </p>
+                    <p className="text-base text-body-color">
+                    29-6-1, First Floor,
+            Lakshmivarapu Peta,
+            Rajahmundry,<br/>
+            Andhra Pradesh, 533104
                     </p>
                   </div>
                 </div>
