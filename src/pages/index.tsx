@@ -2231,12 +2231,11 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
                   <div>
                     <h5 className="mb-6 text-lg font-semibold">Our Locations</h5>
                     <p className="text-base text-body-color">
-                    41FE, LAKE SHORE HOMES,
-            KASAVANAHALLI, BANGALORE,
-            KARNATAKA, 560035<br/>
-            MOBILE: +91 9739280208<br/>
-            EMAIL: ram@styklr.com<br/>
-            https://www.styklr.com
+                    Company name: SRI MOHANA RAMYA M<br/>
+                    Legal address: LAKE SHORE HOMES, KASAVANAHALLI, BANGALORE, Karnataka, 560035, India<br/>
+                    Primary contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
+                    Primary contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
+                    Domain : https://www.styklr.com
                     </p><br/><br/>
                     <p className="text-base text-body-color">
                     29-6-1, First Floor,
