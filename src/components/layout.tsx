@@ -221,8 +221,8 @@ const Layout:React.FC<ILayoutProps> = (props) => {
             <div className='text-white'>
             Company name: SRI MOHANA RAMYA M<br/>
             Legal address: LAKE SHORE HOMES, KASAVANAHALLI, BANGALORE, Karnataka, 560035, India<br/>
-            Primary contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
-            Primary contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
+            Primary contact: Sri Mohana Ramya Merla, ramya@styklr.com, 9739280208<br/>
+            Security contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
             Domain : https://www.styklr.com
             </div>
             <br/><br/>
