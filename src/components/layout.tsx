@@ -218,21 +218,13 @@ const Layout:React.FC<ILayoutProps> = (props) => {
             </div>
             <div className="mb-10 w-full">
             <h4 className="mb-9 text-lg font-semibold text-white">India</h4>
-            <div className='text-white'>
-            Company name: SRI MOHANA RAMYA M<br/>
-            Legal address: LAKE SHORE HOMES, KASAVANAHALLI, BANGALORE, Karnataka, 560035, India<br/>
-            Primary contact: Sri Mohana Ramya Merla, ramya@styklr.com, 9739280208<br/>
-            Security contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
-            Domain : https://www.styklr.com
-            </div>
-            <br/><br/>
-            <div className='text-white'>
-            SRI MOHANA RAMYA MERLA<br/>
-            29-6-1, First Floor,
-            Lakshmivarapu Peta,
-            Rajahmundry,<br/>
-            Andhra Pradesh, 533104
-            </div>
+              <div className='text-white'>
+              Company name: Styklr Technologies<br/>
+              Legal address: 29-6-1/1, Lakshmivarapu Peta, Rajahmundry, Andhra Pradesh, 533104, India<br/>
+              Primary contact: Sri Mohana Ramya Merla, ramya@styklr.com, 9739280208<br/>
+              Security contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
+              Domain : https://www.styklr.com
+              </div>
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">

@@ -2231,17 +2231,11 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
                   <div>
                     <h5 className="mb-6 text-lg font-semibold">Our Locations</h5>
                     <p className="text-base text-body-color">
-                    Company name: SRI MOHANA RAMYA M<br/>
-                    Legal address: LAKE SHORE HOMES, KASAVANAHALLI, BANGALORE, Karnataka, 560035, India<br/>
+                    Company name: Styklr Technologies<br/>
+                    Legal address: 29-6-1/1, Lakshmivarapu Peta, Rajahmundry, Andhra Pradesh, 533104, India<br/>
                     Primary contact: Sri Mohana Ramya Merla, ramya@styklr.com, 9739280208<br/>
                     Security contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
                     Domain : https://www.styklr.com
-                    </p><br/><br/>
-                    <p className="text-base text-body-color">
-                    29-6-1, First Floor,
-            Lakshmivarapu Peta,
-            Rajahmundry,<br/>
-            Andhra Pradesh, 533104
                     </p>
                   </div>
                 </div>
