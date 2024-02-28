@@ -35,7 +35,7 @@ const IndexPage: React.FC<PageProps> = () => {
               <ul className="mb-10 flex flex-wrap items-center justify-center">
                 <li>
                   <Link
-                    href="#services"
+                    to="#services"
                     className="inline-flex items-center justify-center rounded-lg bg-white py-4 px-6 text-center text-base font-medium text-dark transition duration-300 ease-in-out hover:text-primary hover:shadow-lg sm:px-10"
                   >
                     Our Services
@@ -2231,11 +2231,8 @@ xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5" stroke="curren
                   <div>
                     <h5 className="mb-6 text-lg font-semibold">Our Locations</h5>
                     <p className="text-base text-body-color">
-                    Company name: Styklr Technologies<br/>
-                    Legal address: 29-6-1/1, Lakshmivarapu Peta, Rajahmundry, Andhra Pradesh, 533104, India<br/>
-                    Primary contact: Sri Mohana Ramya Merla, ramya@styklr.com, 9739280208<br/>
-                    Security contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
-                    Domain : https://www.styklr.com
+                      Styklr Technologies<br/>   
+                      29-6-1/1,Lakshmivarapu Peta, Rajahmundry, Andhra Pradesh, 533104<br/>
                     </p>
                   </div>
                 </div>

@@ -79,14 +79,14 @@ const Layout:React.FC<ILayoutProps> = (props) => {
                       About
                     </Link>
                   </li>
-                  <li className="group relative">
+                  {/* <li className="group relative">
                     <Link
                       to="/#team"
                       className="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
                     >
                       Team
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="group relative">
                     <Link
                       to="/#contact"
@@ -219,11 +219,8 @@ const Layout:React.FC<ILayoutProps> = (props) => {
             <div className="mb-10 w-full">
             <h4 className="mb-9 text-lg font-semibold text-white">India</h4>
               <div className='text-white'>
-              Company name: Styklr Technologies<br/>
-              Legal address: 29-6-1/1, Lakshmivarapu Peta, Rajahmundry, Andhra Pradesh, 533104, India<br/>
-              Primary contact: Sri Mohana Ramya Merla, ramya@styklr.com, 9739280208<br/>
-              Security contact: Ram Mohan, ram@styklr.com, 9739280208<br/>
-              Domain : https://www.styklr.com
+                Styklr Technologies<br/>   
+                29-6-1/1,Lakshmivarapu Peta, Rajahmundry, Andhra Pradesh, 533104<br/>
               </div>
             </div>
           </div>
